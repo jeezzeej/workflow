@@ -1,0 +1,9 @@
+name: Start when a merge happens 
+on: pull_request
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Get code
+       uses: actions/checkout@v3
+  
