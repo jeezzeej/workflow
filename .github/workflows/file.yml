@@ -1,9 +1,14 @@
 name: Start when a merge happens 
 on: pull_request
+env:
+  MONGODB_USERNAME: ahmad
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
      - name: Get code
        uses: actions/checkout@v3
+     - name: Commit changes to main branch after merge
+       uses: EndBug/add-and-commit@v9
+     
   
