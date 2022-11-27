@@ -1,0 +1,52 @@
+.container{
+	display: flex;
+	border: 8px solid black;
+	color: white;
+	font-size: 2em;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.box{
+	width: 300px;
+	height: 80 vnh;
+	flex-grow: stretch;
+
+}
+
+
+.box-1{
+	background-color: #82EF1A;
+}
+.box-2{
+	background-color: #363377;
+}
+
+.box-3{
+	background-color: #540002;
+}
+
+.box-4{
+	background-color: #A8383B;
+}
+
+.box-5{
+	background-color: #FDA8AA;
+}
+
+.box-6{
+	background-color: #003333;
+}
+
+.box-7{
+	background-color: #0D4D4D;
+}
+
+.box-8{
+	background-color: #669999;
+}
+
+.box-9{
+	background-color: #852C64;
+}
