@@ -9,7 +9,7 @@ jobs:
      - name: Get code
        uses: actions/checkout@v3
      - name: print the variable 
-       run: echo '$MONGODB_USERNAME'
+       run: echo 'MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}'
      - name: Commit changes to main branch after merge
        uses: EndBug/add-and-commit@v9
      
